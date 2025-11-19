@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # criamos a url no celular e dps acessamos pelo pc para fazer os nossos testes
-url_camera = "http://172.25.253.4:4747/video"
+url_camera = ""
 
 # criamos uma função para fazer toda a captura de tela desejada
 def acessar_camera_celular(url):
@@ -37,3 +37,4 @@ def acessar_camera_celular(url):
 
 # estamos chamando a função principal que criamos
 acessar_camera_celular(url_camera)
+
